@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="flex justify-center items-center bg-black w-[100vw] h-[100vh]">
+        <div class="flex flex-col gap-6 bg-slate-600 p-8">
+            <div class="text-white text-xl font-bold">Increment and Decrement</div>
+            <div class="flex flex-row justify-evenly bg-white p-2 rounded-sm">
+                <button onclick="decrement()"><i class="fa fa-minus text-red-800 text-xl border-r-2 border-black pr-5" aria-hidden="true" ></i></button>
+                <div id="counter" class="text-green-600 text-2xl">0</div>
+                <button onclick="increment()"><i class="fa fa-plus text-red-800 text-xl border-l-2 border-black pl-5" aria-hidden="true" ></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
